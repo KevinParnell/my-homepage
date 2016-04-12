@@ -1,0 +1,22 @@
+h1 {
+  color: black;
+  font-family: ubuntu;
+  font-size: 300%
+}
+p {
+  color: inherit;
+  font-family: ubuntu;
+  font-size: 160%
+  display: inline-block;
+}
+a {
+  color: inherit;
+  font-family: ubuntu;
+  font-size: 160%;
+  text-decoration: none;
+
+}
+a:hover{
+  color:white;
+  text-decoration: none;
+}
