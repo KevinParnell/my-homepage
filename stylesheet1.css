@@ -20,3 +20,10 @@ a:hover{
   color:white;
   text-decoration: none;
 }
+input[type="text"]
+{
+  font-family: ubuntu;
+}
+body *{
+  font-family: ubuntu;
+}
