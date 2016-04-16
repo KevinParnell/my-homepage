@@ -1,0 +1,46 @@
+@font-face {
+font-family: ubuntu;
+}
+
+@font-face {
+font-family: ubuntu;
+}
+
+
+body {
+background: #252a32;
+color: #3DB5E1  ;
+font-family: ubuntu;
+font-size: 16pt;
+}
+
+a {
+color: #F8B284 ;
+text-decoration: none;
+}
+
+a:hover {
+color: #3DB5E1
+}
+
+h1 {
+font-family: ubuntu;
+font-size: 30pt;
+font-weight: normal;
+margin-top: -18px;
+margin-bottom: 24px;
+}
+
+.links {
+color: #407C9B  ;
+}
+
+#body {
+max-width: 434px;
+max-height: 300px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-top: -150px;
+margin-left: -217px;
+}
