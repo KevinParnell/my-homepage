@@ -16,7 +16,25 @@
 
 <div id=body>
 
-<h1><center>Welcome</center></h1>
+  <h1 align="center" id="message" class="expandUp"></h1>
+      <script type="text/javascript">
+              var d = new Date();
+              var n = d.getHours();
+
+              if ( n == 21 || n == 0) {
+                      message = "Goodnight";
+              } else if ( n >= 1 && n <= 4 ) {
+                      message = "Goodnight";
+              } else if ( n >= 5 && n <= 11 ) {
+                      message = "Good Morning";
+              } else if ( n >= 12 && n <= 17 ) {
+                      message = "Good Afternoon";
+              } else if ( n >= 18 && n <= 22 ) {
+                      message = "Good Evening";
+              }
+
+              document.getElementById("message").innerHTML = message;
+      </script>
 
 <span>MEDIA </span>
 <span class=links>
