@@ -6,8 +6,15 @@ font-family: ubuntu;
 font-family: ubuntu;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 
 body {
+width: 100%;
+height: 100%;
 background: #252a32;
 color: #3DB5E1  ;
 font-family: ubuntu;
@@ -20,15 +27,15 @@ text-decoration: none;
 }
 
 a:hover {
-color: #3DB5E1
+color: #3DB5E1;
 }
 
 h1 {
 font-family: ubuntu;
 font-size: 30pt;
 font-weight: normal;
-margin-top: -18px;
-margin-bottom: 24px;
+margin-top: -34px;
+margin-bottom: 20px;
 }
 
 .links {
@@ -39,8 +46,12 @@ color: #407C9B  ;
 max-width: 434px;
 max-height: 300px;
 position: absolute;
-top: 50%;
+top: 45%;
 left: 50%;
+border: 1px solid #3DB5E1;
+border-radius: 5px;
+padding: 60px 1em;
+background: #2b313b;
 margin-top: -150px;
 margin-left: -217px;
 }
