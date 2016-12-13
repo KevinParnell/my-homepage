@@ -10,4 +10,4 @@ See the [License](License.md) file for license rights and limitations (MIT).
 
 ## Screenshot
 
-![Alt text](https://i.imgur.com/Tvqs3UN.png)
+![Alt text](screenshot.png)
